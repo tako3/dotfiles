@@ -1,2 +1,20 @@
 #common
-*.DS_Store
+.DS_Store
+
+#object, archive files
+*.[oa]
+
+#swap file
+*~
+
+#xcode
+**/*.xcodeproj/*
+!**/*.xcodeproj/project.pbxproj
+!*.xcodeproj/default.*
+!**/*.xcodeproj/default.*
+*.pbxuser
+!default.pbxuser
+*.xcworkspace
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+xcuserdata
